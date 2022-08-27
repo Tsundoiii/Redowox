@@ -3,16 +3,6 @@
 version = 3
 
 [[package]]
-name = "UwU_OS"
-version = "0.1.0"
-dependencies = [
- "bootloader",
- "lazy_static",
- "spin",
- "volatile",
-]
-
-[[package]]
 name = "bootloader"
 version = "0.9.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -25,6 +15,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 dependencies = [
  "spin",
+]
+
+[[package]]
+name = "redowox"
+version = "0.1.0"
+dependencies = [
+ "bootloader",
+ "lazy_static",
+ "spin",
+ "volatile",
 ]
 
 [[package]]
