@@ -69,7 +69,7 @@ impl Writer {
                 let row = BUFFER_HEIGHT - 1;
                 let col = self.column_position;
 
-                let color_code = self.color_code;
+                let color_code = ColorCode::new(Color::Pink, Color::Black); // sets text color to pink :3
                 self.buffer.chars[row][col].write(ScreenChar {
                     ascii_character: byte,
                     color_code,

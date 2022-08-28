@@ -7,7 +7,7 @@ mod vga_buffer;
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    println!("Hello{}", 1);
+    println!("UwU :3");
 
     loop {}
 }
